@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "lib": ["es2015", "dom"],
+    "noImplicitAny": false,
+    "suppressImplicitAnyIndexErrors": true
+  },
+  "include": [
+    "gulpfile.ts",
+    "src/**/*.ts",
+    "spec/**/*.ts",
+    "spec/cucumber/stepDefinitions/**/*.ts",
+    "spec/cucumber/stepDefinitions/*.ts",
+    "spec/cucumber/testConfig/*.ts",
+    "spec/cucumber/support/*.ts"
+  ],
+  "exclude": ["bower_components"]
+}
