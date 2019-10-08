@@ -5,7 +5,7 @@ describe('Sample describe', () => {
     
   });
 
-  it('sample test', async => {
+  it('sample test', async () => {
     expect(1).to.equal(1);
   });
 });
