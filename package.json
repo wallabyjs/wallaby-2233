@@ -9,7 +9,7 @@
   "dependencies": {
     "@types/chai-spies": "^1.0.1",
     "@types/lodash": "^4.14.137",
-    "axios": "^0.18.1",
+    "axios": "^0.21.1",
     "chai-spies": "^1.0.0",
     "http-status": "1.1.0",
     "husky": "^3.0.4",
